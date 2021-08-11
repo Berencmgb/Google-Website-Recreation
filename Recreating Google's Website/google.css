@@ -1,0 +1,104 @@
+body p h1 h2 h3 ul li button a .top-nav-bar .left-nav-bar .right-nav-bar .account-dropdown .search-bar .search-buttons .bottom-nav-bar
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-nav-bar
+{
+    position: static;
+    max-width: 100%;
+    background-color: grey;
+}
+
+li
+{
+    position: relative;
+    list-style: none;
+    max-width: 100%;
+}
+
+ul.left-nav-bar
+{
+    max-width: 100%;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul.left-nav-bar li
+{
+    display: inline;
+}
+
+ul.right-nav-bar
+{
+    max-width: 100%;
+    margin-left: 80%;
+    margin-right: auto;
+    padding: 0px; 
+    display: inline;
+}
+
+ul.right-nav-bar li
+{
+    position: relative;
+    display: inline;
+    width: 20%;
+}
+
+ul.right-nav-bar li label.account-button
+{
+    width: 20%;
+    display: block;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ul.right-nav-bar li button
+{
+    text-align: center;
+    display: none;
+}
+
+ul.right-nav-bar li input.hamburger-button
+{
+    display: inline;
+}
+
+input.hide-box
+{
+    display: none;
+}
+
+ul.right-nav-bar li label.hamburger
+{
+    user-select: none;
+    padding: 5px;
+}
+
+ul.right-nav-bar li button img
+{
+    width: 30px;
+}
+
+ul.hamburger-dropdown li button img
+{
+    width: 30px;
+    text-align: center;
+}
+
+li label.account-button img
+{
+    display: inline;
+    border-radius: 50%;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
